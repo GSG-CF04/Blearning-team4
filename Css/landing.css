@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body {
+/* body {
     width: 375px;
     height: 667px;
     border-radius: 5px;
@@ -12,20 +12,22 @@ body {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-}
+} */
 .title {
     font-family: 'Roboto', sans-serif;;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 40px;
     line-height: 24px;
     letter-spacing: 0.32px;
-    margin-bottom: 13px;
+    margin-bottom: 20px;
     color: #222B45;
+}
+.padding {
+    padding: 20px 170px ;
 }
 /* Start header section style */
 header {
-    padding: 20px 30px ;
     display: flex;
     justify-content: space-between;
 }
@@ -65,18 +67,16 @@ header .log-in img{
 }
 /* End header section style */
 /* Start All Subject section style */
-.all-subject {
-    padding: 20px 30px ;
-}
 .all-subject .subjects{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    overflow: hidden;
 }
 .all-subject .subjects .subject{
     display: flex;
     justify-content: space-between;
-    width: 150px;
+    width: 220px;
     height: 56px;
     margin-bottom: 18px;
     background-color: #E8F3FB;
@@ -109,57 +109,58 @@ header .log-in img{
 
 /* End All Subject section style */
 /* Start Byjus Classes section style */
-.byjus-classes {
-    padding: 20px 30px ;
-}
 .class-box{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    width:315px;
-    height:190px ;
+    justify-content: space-between;
+    width:1000px;
+    height:300px ;
     background-color: #2C2749;
     border-radius: 12px;
 }
 .class-box .class-box-content{
-    padding-top: 31px;
-    padding-left: 24px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 40px;
 }
 .class-box .class-box-content h2{
     font-family: 'Roboto', sans-serif;;
     font-style: normal;
     font-weight: bold;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 40px;
     letter-spacing: 0.341333px;
     color: #FFFFFF;
-    margin-bottom: 6px;
+    margin-bottom: 10px;
 }
 .class-box .class-box-content p{
     font-family: 'Open Sans', sans-ser;
     font-style: normal;
     font-weight: 600;
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 20px;
     color: rgba(255, 255, 255, 0.75);
 }
 .class-box .class-box-content button{
     font-size: 12px;
     font-weight: bold;
-    width: 110px;
+    width: 200px;
     height: 38px;
     border: none;
     background: #FFFFFF;
     border-radius: 24px;
     border-radius: 24px;
     color: #000;
-    margin-top: 25px;
+    margin-top: 40px;
     -webkit-border-radius: 24px;
     -moz-border-radius: 24px;
     -ms-border-radius: 24px;
     -o-border-radius: 24px;
 }
+.class-box .class-box-image{
+    overflow: hidden;
+}
 .class-box .class-box-image img{
+    width: 500px;
+    height:300px ;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -168,9 +169,6 @@ header .log-in img{
 }
 /* End Byjus Classes section style */
 /* Start Byjus Corner section style */
-.byjus-corner{
-    padding: 20px 30px ;
-}
 .heading {
     display: flex;
     flex-direction: row;
@@ -281,13 +279,9 @@ header .log-in img{
 }
 /* End Byjus Corner section style */
 /* Start Share App section style */
-.share-app{
-    padding: 20px 30px ;
-}
 .share-box{
-
-    width:315px;
-    height:121px ;
+    width:1000px;
+    height:300px ;
     background-color: hsl(244, 100%, 97%);
     border-radius: 12px;
     -webkit-border-radius: 12px;
@@ -300,27 +294,30 @@ header .log-in img{
  position: relative;
 }
 .share-box-content h2 {
+    padding-top: 70px;
+    padding-left: 50px;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 40px;
     letter-spacing: 0.341333px;
     color: #000000;
 }
 .share-box-content p {
-    padding-right: 140px;
+    padding-left: 50px;
+    padding-right: 540px;
     font-family: 'Open Sans', sans-ser;
     font-style: normal;
     font-weight: 600;
-    font-size: 9px;
-    line-height: 18px;
+    font-size: 20px;
     color: #8A96AD;
 }
 .share-box-content img{
+    width: 500px;
+    height: 300px;
     position: absolute;
-    right: -15px;
-    bottom: -3px;
+    right: 15px;
+    bottom: -50px;
 }
 /* End Share App section style */
 /* Start Footer section style */
@@ -336,4 +333,72 @@ hr{
 }
 /* End Footer section style */
 
+@media (max-width:375px) {
+    .padding {
+        padding: 20px 30px ;
+    }
+    .title {
+        font-size: 18px;
+        margin-bottom: 13px;
+    }
+ 
+    /* Start All Subject section style */
+    .all-subject .subjects .subject{
+        width: 150px;
+    }
+    /* End All Subject section style */
+    /* Start Byjus Classes section style */
+    .class-box{
+        justify-content: space-around;
+        width:315px;
+        height:190px ;
+    }
+    .class-box .class-box-content{
+        width:145px;
+        padding-top: 31px;
+        padding-left: 15px;
+    }
+    .class-box .class-box-content h2{
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .class-box .class-box-content p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .class-box .class-box-content button{
+        width: 110px;
+        margin-top: 15px;
+    }
+    .class-box .class-box-image img{
+        width: 170px;
+        height:190px ;
+    }
+    /* End Byjus Classes section style */
+    /* Start Share App section style */
+    .share-box{
+        width:315px;
+        height:121px ;
+    }
 
+    .share-box-content h2 {
+        padding-top: 0px;
+        padding-left: 0px;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .share-box-content p {
+        padding-left: 0px;
+        padding-right: 140px;
+        font-size: 9px;
+        line-height: 18px;
+    }
+    .share-box-content img{
+        width: 270px;
+        height: 121px;
+        position: absolute;
+        right: -15px;
+        bottom: 5px;
+    }
+    /* End Share App section style */
+}
