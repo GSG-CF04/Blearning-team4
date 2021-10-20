@@ -1,0 +1,28 @@
+[33mcommit 820334e231452668e5c7a58107908e7cec4b944c[m[33m ([m[1;36mHEAD -> [m[1;32mlanding-page[m[33m)[m
+Author: IsraaHamdi <israaaburayya2012@gmail.com>
+Date:   Wed Oct 20 11:18:05 2021 +0300
+
+    update README.md File
+    Realts#2
+
+[33mcommit 6c78ddcb099e9a85f12c50ec1b7af846757521db[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 3f4a136 8792e59
+Author: Nada Abuzaid <52599778+nadabassam@users.noreply.github.com>
+Date:   Wed Oct 20 10:37:44 2021 +0300
+
+    Merge pull request #7 from GSG-CF04/01-FileStructure
+    
+    File structure
+
+[33mcommit 8792e5939812fda7ba12e5a7ed6ed5d677f02dbb[m[33m ([m[1;31morigin/01-FileStructure[m[33m)[m
+Author: nabilramy <nabil.abushaban@gmail.com>
+Date:   Wed Oct 20 01:23:59 2021 +0300
+
+    Intializing files
+    Relates #1
+
+[33mcommit 3f4a1367019227c5237d947397987bae6941d254[m
+Author: Nabil AbuShaban <nabil.abushaban@gmail.com>
+Date:   Tue Oct 19 17:42:12 2021 +0300
+
+    Initial commit
