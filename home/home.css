@@ -212,23 +212,6 @@ header .log-in img{
         left:-1040px;
     }
 }
-@keyframes slider1 {
-    0% {
-        left:0;
-    }
-    25% {
-        left :-260px;
-    }
-    50% {
-        left:-520px;
-    }
-    75%{
-        left:-780px;
-    }
-    100% {
-        left:0px;
-    }
-}
 .corner-box
 {
     position: relative;
@@ -239,7 +222,6 @@ header .log-in img{
 .corner-box-video
 {
     background-color: #8A96AD;
-    position: relative;
     width:250px;
     height:160px;
     overflow: hidden;
@@ -258,15 +240,6 @@ header .log-in img{
     -moz-border-radius: 8px 8px 0px 0px !important;
     -ms-border-radius: 8px 8px 0px 0px !important;
     -o-border-radius: 8px 8px 0px 0px !important;
-}
-
-.corner-box-video .icon-video i {
-    font-size: 50px;
-    z-index: 5;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 .corner-box-info{
     display: flex;
