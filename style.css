@@ -87,7 +87,7 @@
             }
             /* Desktop */
             
-            @media (min-width:1024px) {
+            @media (min-width:1023px) {
                 img.header-image {
                     position: absolute;
                     width: 40%;
