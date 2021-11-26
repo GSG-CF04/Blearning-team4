@@ -2,7 +2,7 @@
 ### Member Team4
     ```Mohammed Mahmoud Dahalan
     ```Nabil Rami Abu Shaban
-    ```Nada Bassam Abu Zaida
+    ```Nada Bassam Abu Zaid
     ```Israa Hamdi Abu Rayya
 ### The Purpose
    ```This is th first project for Coding-Foundations-course
